@@ -18,12 +18,17 @@
             <img src="./Assets/logo.png" alt="Logo">
             <img src="./Assets/LaslesVPN.png" alt="LaslesVPN">
         </div>
-        <div class="navbar-about">
-            About Features Pricing Testimonials Help
+        <div class="navbar__menu">
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Help</a>
+
         </div>
-        <div>
-            <button class="button1">Sign In</button>
-            <button class="button2">Sign Up</button>
+        <div class="navbar__account">
+            <button class="signin">Sign In</button>
+            <button class="signup">Sign Up</button>
         </div>
     </nav>
     <section class="section-content">
@@ -41,108 +46,58 @@
     <section>
 
         <div class="user-location-server">
-            <div class="user-logo">
-                <img class="user-logo-image" src="/Assets/user.png" alt="user">
-                90 + <br>
-                Users
+            <div class="user">
+                <img class="user__image" src="/Assets/user.png" alt="user">
+                <div class="user__item">
+                    <div class="bold"> 50 +</div>
+                    <div>Users</div>
+                </div>
             </div>
-            <div class="user-location">
-                <img class="user-logo-location" src="/Assets/location.png" alt="location">
-                30 + <br>
-                Locations
+            <div class="user">
+                <img class="user__image" src="/Assets/location.png" alt="location">
+                <div class="user__item">
+                    <div class="bold"> 30 +</div>
+                    <div>Users</div>
+                </div>
             </div>
 
-            <div class="user-server">
-                <img class="user-logo-server" src="/Assets/Server.png" alt="server">
-                50 + <br>
-                Servers
+            <div class="user">
+                <img class="user__image" src="/Assets/Server.png" alt="server">
+                <div class="user__item">
+                    <div class="bold"> 90 +</div>
+                    <div>Users</div>
+                </div>
             </div>
 
         </div>
 
         <div class="section-2">
-            <div>
-                <img class="section-image-2" src="./Assets/section-picture2.png" alt="section-picture2" width="508px"
-                    height:414px;>
-            </div>
-            <div>
+            <img class="section-image-2" src="./Assets/section-picture2.png" alt="section-picture2" width="508px"
+                height:414px;>
+            <div class="features">
                 <h1 class="section-2-h1">We Provide Many Features You Can Use</h1>
                 <p class="section-2-p">You can explore the features that we provide with fun and have their own
                     functions each feature.</p>
-                <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
-                Powerfull online protection. <br>
-                <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
-                Internet without borders. <br>
-                <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
-                Supercharged VPN <br>
-                <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
-                No specific time limits
-
+                <div class="flex align-center mt-10">
+                    <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
+                    <p>Powerfull online protection.</p>
+                </div>
+                <div class="flex align-center mt-10">
+                    <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
+                    <p>Internet without borders. </p>
+                </div>
+                <div class="flex align-center mt-10">
+                    <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
+                    <p>Supercharged VPN </p>
+                </div>
+                <div class="flex align-center mt-10">
+                    <img class="section-image-2-true-tables" src="./Assets/true.png" alt="true">
+                    <p> No specific time limits</p>
+                </div>
             </div>
 
         </div>
 
-        <div class="section-3">
-            <div>
-                <h1 class="section-3-h1">Choose Your Plan</h1>
-                <p class="section-3-p">Let's choose the package that is best for you and explore it happily and
-                    cheerfully.</p>
-            </div>
-            <div class="section-3-boxs">
-                <div class="box1">
-                    <img src="/Assets/box.png" alt="box" width="144px" height="165">
-                    Free Plan
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Unlimited Bandwitch
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Encrypted Connection
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    No Traffic Logs
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Works on All Devices <br>
-                    <div>
-                        Free <br>
-                        <button class="box-1-button">Select</button>
-                    </div>
-                </div>
-                <div class="box2">
-                    <img src="/Assets/box.png" alt="box" width="144px" height="165">
-                    Standart Plan
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Unlimited Bandwitch
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Encrypted Connection
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    No Traffic Logs
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Works on All Devices
-                    <div>
-                        $9 / mo <br>
-                        <button class="box-2-button">Select</button>
-                    </div>
-
-                </div>
-                <div class="box3">
-                    <img src="/Assets/box.png" alt="box" width="144px" height="165">
-                    Premium Plan
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Unlimited Bandwitch
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Encrypted Connection
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    No Traffic Logs
-                    <img src="./Assets/true.png" alt="true" width="13px" height="13px">
-                    Works on All Devices
-                    <div>
-                        $12 / mo <br>
-                        <button class="box-3-button">Select</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
 
     </section>
     <section class="section-4">
@@ -181,14 +136,7 @@
 
             </div>
         </div>
-        <div class="section-5-buttons">
-            <button class="section-5-button1"></button>
-            <button class="section-5-button2"></button>
-            <button class="section-5-button3"></button>
-            <button class="section-5-button4"></button>
-            <button class="section-5-button5"></button>
-            <button class="section-5-button6"></button>
-        </div>
+
         <div class="section-5-subscribe-now">
             <div>
                 <h1 class="section-5-subscribe-now-h1">Subscribe Now for <br> Get Special Features!</h1>
@@ -197,12 +145,9 @@
             <div>
                 <button class="section-5-subscribe-now-button">Subscribe now</button>
             </div>
-            
-        </div>
-        <div class="section-5-footer">
-            box1
 
         </div>
+
 
 
     </section>
